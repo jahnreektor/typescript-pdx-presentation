@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'tsc', '--save-dev' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'tsc', null ]
+6 verbose cache add name=undefined spec="tsc" args=["tsc",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'tsc',
+7 verbose parsed url   path: 'tsc',
+7 verbose parsed url   href: 'tsc' }
+8 silly lockFile 50979f87-tsc tsc
+9 verbose lock tsc /home/ubuntu/.npm/50979f87-tsc.lock
+10 silly lockFile 50979f87-tsc tsc
+11 silly lockFile 50979f87-tsc tsc
+12 verbose addNamed [ 'tsc', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 5456f48e-tsc tsc@
+15 verbose lock tsc@ /home/ubuntu/.npm/5456f48e-tsc.lock
+16 silly addNameRange { name: 'tsc', range: '*', hasData: false }
+17 verbose url raw tsc
+18 verbose url resolving [ 'https://registry.npmjs.org/', './tsc' ]
+19 verbose url resolved https://registry.npmjs.org/tsc
+20 info trying registry request attempt 1 at 22:10:49
+21 http GET https://registry.npmjs.org/tsc
+22 http 404 https://registry.npmjs.org/tsc
+23 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '51',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Thu, 11 Jun 2015 22:17:03 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1434061023.174842,VS0,VE88' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '51',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Thu, 11 Jun 2015 22:17:03 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1434061023.174842,VS0,VE88' } ]
+25 silly lockFile 5456f48e-tsc tsc@
+26 silly lockFile 5456f48e-tsc tsc@
+27 error 404 404 Not Found: tsc
+27 error 404
+27 error 404 'tsc' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Linux 3.11.0-12-generic
+29 error command "/usr/bin/node" "/usr/bin/npm" "install" "tsc" "--save-dev"
+30 error cwd /home/ubuntu/pro-angular-js/typescript-pdx-presentation
+31 error node -v v0.10.29
+32 error npm -v 1.4.14
+33 error code E404
+34 verbose exit [ 1, true ]

@@ -4,6 +4,6 @@ class Greeter {
         return "<h1>" + this.greeting + "</h1>";
     }
 };
-var greeter: Greeter = new Greeter("Hello, TypescriptPDX!");
+var greeter = new Greeter("Hello, TypescriptPDX! HURRAy");
 var str = greeter.greet();
 document.body.innerHTML = str;
